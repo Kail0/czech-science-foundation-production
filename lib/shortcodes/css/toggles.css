@@ -1,0 +1,43 @@
+/* KAILO WORDPRESS THEME TOGGLE */
+#content article #toggle-view
+{
+	font-size:12px;
+	list-style:none;
+	margin:15px 0 0!important;
+	padding-bottom:10px;
+}
+
+#content article #toggle-view li
+{
+	background:#FFF;
+	border:1px solid #EFEFEF;
+	border-radius:5px;
+	cursor:pointer;
+	list-style:none;
+	margin:15px 0;
+	position:relative;
+	padding: 15px 12px 15px 50px;
+}
+
+#content article #toggle-view span
+{
+	color: #ffffff !important;
+	left: 18px;
+	position:absolute;
+	top: 14px;
+	background-color: #27407b;
+	width: 19px;  
+	height: 19px;
+	margin: 0 0 0 0;
+	font-size: 15px !important;
+	font-family: Courier, monospace !important;
+	display: inline-block;
+	text-align: center;
+}
+
+#content article #toggle-view p
+{
+	display:none;
+	margin:15px 0;
+	color: #333;
+}
