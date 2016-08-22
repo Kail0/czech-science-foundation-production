@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="container clearfix">
     <!-- TICKER -->
-    <div class="eventTicker z-depth-0-half" id="ticker">
+    <div class="eventTicker z-depth-0-half s12 l12" id="ticker">
         <div class="bn-title">
             <h5>Důležité termíny</h5><span></span></div>
         <?php
@@ -52,7 +52,6 @@
                 <!-- NEWS -->
                 <?php
                 $custom_args = array (
-                    // 'cat'                    => '-17, -292, -87, 53',
                     'cat' => '331',
                     'category__not_in' => array(87, 17),  // 87 zverejnene-informace-106; 17 vynikajici projekty;
                     'posts_per_page' => 5,
@@ -62,7 +61,6 @@
 
                 // the query
                 $custom_query = new WP_Query( $custom_args );
-
 
                  // Output custom query loop
                     if ( $custom_query->have_posts() ) :
