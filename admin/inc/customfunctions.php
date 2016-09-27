@@ -1,4 +1,15 @@
 <?php
+
+// Dear maintainer:
+//
+// Once you are trying to 'optimize' this routine,
+// and have realized what a terrible mistake that was,
+// pleae increment the following counter as a warning
+// to the next guy:
+
+// total_hours_wasted_here = 18
+
+
 /*********************************************************************************************
 
 Set Max Content Width
@@ -174,7 +185,7 @@ Enable Threaded Comments
 *********************************************************************************************/
 function enable_threaded_comments(){
 if (!is_admin()) {
-     if (is_singular() AND comments_open() AND (get_option('thread_comments') == 1))
+     if (is_singular() AND comments_open() AND (get_option('thread_comments') == 0))
           wp_enqueue_script('comment-reply');
      }
 }
