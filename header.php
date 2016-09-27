@@ -107,7 +107,8 @@
                         <a href="/?page_id=12">Pro média</a> |
                         <a href="http://info.gacr.cz/" target="_blank">Helpdesk</a> |
                         <a href="/faq" target="_blank">FAQ</a> |
-                        <a href="https://www.gris.cz" target="_blank">Aplikace</a> |
+                        <a href="https://www.gris.cz" target="_blank">Grantová Aplikace</a> |
+                        <a href="https://panel.gacr.cz" target="_blank">ERC Aplikace</a> |
                         <!-- START FONT RESIZE & LANG -->
                         <!-- <a id="lang-normal">A |</a>
                             <a id="lang-big">A</a> -->
