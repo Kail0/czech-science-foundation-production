@@ -1,11 +1,11 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class('clearfix hoverable'); ?> role="article">
-    <div class="card dismissable">
+    <div class="card">
         <div class="card-content">
             <span class="card-title">
                 <div class="entry-header">
                     <?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
                 </div><!-- .entry-header -->
-                <span class="entry-meta grey-text text-darken-2"><?php the_time('j. n. Y'); ?></span>
+                <span class="entry-meta grey-text text-darken-2"><?php the_time('j. F Y'); ?></span>
             </span>
             <div class="entry-content">
 

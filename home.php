@@ -53,7 +53,7 @@
                 <?php
                 $custom_args = array (
                     'cat' => '331',
-                    'category__not_in' => array(87, 17),  // 87 zverejnene-informace-106; 17 vynikajici projekty;
+                    'category__not_in' => array(87, 17, 292),  // 87 zverejnene-informace-106; 17 vynikajici projekty;
                     'posts_per_page' => 5,
                     'post_status' => 'publish',
                     'paged' => $paged

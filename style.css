@@ -3,7 +3,7 @@ Theme Name: GACR
 Theme URI:
 Description:  Carefully crafted with HTML5 + CSS3 and loving Material Design - Thanks Google
 Author: Kailo
-Author URI: http://kailo.photography
+Author URI: http://kailo.io
 Version: 2.03b
 
 /* ---------------------------------------------------------------------- */
@@ -968,13 +968,13 @@ header .row {
 
 ul.list-disc, ul.list-square, ul.list-disc, ul.list-margin { margin: 0 0 1.5em 35px; }
 ol.list-upper-roman, ol.list-lower-roman, ol.list-upper-alpha, ol.list-lower-alpha { margin: 0 0 1.5em 35px; }
-ol { list-style-type: decimal; }
-ul ul.list-disc li, ol ul.list-disc li { list-style-type: disc; }
 
 /*ul.list-disc li { list-style-type: disc; }*/
 ul.list-square li { list-style: square; margin: 0 0 6px;}
 ul.list-disc li { list-style-type: disc; margin: 0 0 6px;}
+ul ul.list-disc li, ol ul.list-disc li { list-style-type: disc; }
 ul.list-margin li { list-style: none; margin: 0 0 6px;}
+ol li { list-style-type: decimal; margin: 0 0 6px; }
 ol.list-upper-roman li { list-style: upper-roman; margin: 0 0 6px;}
 ol.list-lower-roman li { list-style: lower-roman; margin: 0 0 6px;}
 ol.list-upper-alpha li { list-style: upper-alpha; margin: 0 0 6px;}
