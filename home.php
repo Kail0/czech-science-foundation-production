@@ -52,8 +52,10 @@
                 <!-- NEWS -->
                 <?php
                 $custom_args = array (
-                    'cat' => '331',
-                    'category__not_in' => array(87, 17, 292),  // 87 zverejnene-informace-106; 17 vynikajici projekty;
+                    'cat' => '-87',
+                    // 'category__not_in' => array(87, 17, 292),  // 87 zverejnene-informace-106; 17 vynikajici projekty; 292 TZ
+                    // 'category__and' => array( 331 ),
+                    'category__in' => array( 331 ),
                     'posts_per_page' => 5,
                     'post_status' => 'publish',
                     'paged' => $paged
