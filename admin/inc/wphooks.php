@@ -7,9 +7,9 @@ WP_Hooks - Enqueue Javascripts
 function kailoframework_header_init() {
     if (!is_admin()) {
 
-	    wp_deregister_script( 'modernizr' );
-	    wp_register_script( 'modernizr', get_template_directory_uri().'/library/js/modernizr-2.6.1.min.js');
-	    wp_enqueue_script( 'modernizr' );
+	    // wp_deregister_script( 'modernizr' );
+	    // wp_register_script( 'modernizr', get_template_directory_uri().'/library/js/modernizr-2.6.1.min.js');
+	    // wp_enqueue_script( 'modernizr' );
 
 	    wp_enqueue_style('roboto-font', '//fonts.googleapis.com/css?family=Roboto:400,300,500,700,100&subset=latin,latin-ext' );
 		wp_enqueue_style('material-style', get_template_directory_uri().'/library/css/materialize.css' );

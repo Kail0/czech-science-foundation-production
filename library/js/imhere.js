@@ -5,16 +5,6 @@ this file will be called automatically in the footer so as not to
 slow the page load.
 */
 
-// Modernizr.load loading the right scripts only if you need them
-Modernizr.load([
-	{
-    // // Let's see if we need to load selectivizr
-    // test : Modernizr.borderradius,
-    // // Modernizr.load loads selectivizr for IE6-8
-    // nope : ['selectivizr-min.js']
-	}
-]);
-
 // as the page loads, cal these scripts
 (function($){
   $(function(){
